@@ -1,0 +1,31 @@
+{
+  "name": "gifterhack",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:1337",
+  "devDependencies": {
+    "jest-expo": "~27.0.0",
+    "nodemon": "^1.18.3",
+    "react-native-scripts": "1.14.0",
+    "react-test-renderer": "16.3.1"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "react-native": "react-scripts start",
+    "dev": "npm run server | react-native-scripts start"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "expo": "^27.0.1",
+    "express": "^4.16.3",
+    "react": "16.3.1",
+    "react-native": "~0.55.2",
+    "react-navigation": "^2.11.1",
+    "twilio": "^3.19.0"
+  }
+}
