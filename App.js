@@ -203,8 +203,7 @@ class FlirtScreen extends React.Component {
       messages: [
         "Winnie the Pooh would have left Christopher Robin for you",
         "Daddy long legs.",
-        "Did you invent fire cause ur fire.",
-        "Hollywood could use a sexy accent like yours."
+        "Did you invent fire cause ur fire."
       ]
     }
   }
@@ -281,8 +280,11 @@ class RoastScreen extends React.Component {
       phone: "",
       name: "Yo mama",
       messages: [
-        "I wish you were a tampon so I could limit our interactions to once a month.",
-        "The only genuine human connection in your life is from someone who uses an app to send you meaningless dialogue."
+        "If laughter is the best medicine, your face must be curing the world.",
+        "The only genuine human connection in your life is from someone who uses an app to send you meaningless dialogue.",
+        "Someday you’ll go far… and I hope you stay there.",
+        "You’re not stupid; you just have bad luck when thinking.",
+        "Whatever kind of look you were going for, you missed."
       ]
     }
   }
@@ -366,16 +368,13 @@ class FortuneScreen extends React.Component {
         "You are destined for great things but will always live under the shadow of your friend @.",
         "Do not drink almond milk.",
         "Look behind you, you are one linkedin connection from your dream job. Go network.",
-        "You are always underestimated by your peers, especially @, you must butt chug 3.1 pints of hennessy to prove them wrong.",
         "You are half mermaid.",
         "Replace your toothpaste with strawberry gogurt for good fortune.",
         "You could profit from investing in the corn industry.",
-        "Your one true love will enjoy “doing it in the butt”.",
         "If you can’t win em over with kindness, start spitting your funky fresh rhymes.",
         "Nicki minaj will be contacting you soon",
         "Follow your dreams until 6:02 pm September 4th, 2036. Then give up to run a bunny farm with your friend @ in northern yugoslavia.",
         "You have a hidden talent in finger painting. Act on it.",
-        "The unresolved sexual tension between you and your friend @ is upsetting the order in the universe.",
         "You will have two children, one will grow to be an aggressive flat-earther and the other will love cinnamon buns.",
         "It’s time to get rid of the evidence.",
         "The pope will grow to be your worst enemy. You were warned.",
