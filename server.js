@@ -12,8 +12,8 @@ app.get('/ping', function (req, res) {
 
 var twilio = require('twilio');
 
-var accountSid = 'AC2cc27f1e4b881d40f5d5c149d1096211'; // Your Account SID from www.twilio.com/console
-var authToken = '589a196baa43fc6d717f77a437384355';   // Your Auth Token from www.twilio.com/console
+var accountSid = process.env.TWILIO_SID;
+var authToken = process.env.TWILIO_AUTH_TOKEN;
 
 var client = new twilio(accountSid, authToken);
 
